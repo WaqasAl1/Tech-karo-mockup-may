@@ -1,0 +1,352 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+@keyframes example{
+    from {right:  0;}
+    to {right: 90%;}
+}
+
+
+article{ 
+    background-color: #ff0000;
+    display: flex;
+}
+.top-nav{
+    margin: 1px;
+    width: 100%;
+    padding-left:  0;
+    margin-left: 0;
+}
+#offer{
+    color: #ffffff;
+    font-weight: 600;
+    float: right;
+    position: relative;
+    animation: mymove 20s infinite;
+}
+.fa-html5{
+    width: 50px;
+}
+#offer span{
+    background-color: #ffff00;
+    color: #000000;
+}
+#offer:hover{
+    animation-play-state: paused;
+}
+@keyframes mymove{
+    from {right: 0;}
+    to {right: 100%;}
+}
+.top-nav #logo{
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img{
+    width: 60px;
+    height: 35px;
+    padding: 6px;
+}
+.top-nav #menu .nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    white-space: pre;
+    margin-right: 1em;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #d3d3d3;
+}
+#mainHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px
+}
+.techkaro-Header{
+    background-color: pink;
+    opacity: 1.5;
+    margin-top: -3.0em;
+    background-image: url(images/floral.png);
+
+}
+#content_Header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.main_content{
+
+    margin:auto;
+    display: block;
+}
+#join-now{
+    position: relative;
+    top: 70%;
+    left: 43%;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    color: pink;
+    background-color: black;
+    border: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+#services{
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    font-family: 'Cookie', cursive;
+}
+.courses-description{
+    background-color: #efece7;
+    background-image: url(images/floral.png);
+    opacity: 1.5;
+    padding: 1em;
+    background-repeat: repeat;
+    margin: auto;
+}
+#html5{
+    
+    display: flex;
+    display: inline;
+}
+#1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#all{
+    display: flex;
+
+}
+h4{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.fa-html5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 150px;
+    padding: 10px;
+}
+
+.html5{
+    display: flex;
+    flex-direction: row
+}
+
+.fa-html5:hover{
+    color: #ff0000
+}
+.fa-css3-alt{
+    font-size: 150px
+}
+
+.css3{
+    display: flex;
+    flex-direction: row
+}
+.fa-css3-alt:hover{
+    color: #ff0000
+}
+.fa-js{
+    font-size: 150px
+}
+
+.js{
+    display: flex;
+    flex-direction: row
+}
+.fa-js:hover{
+    color: #ff0000
+}
+h2{
+     display: flex;
+    justify-content: center;
+    font-size: 5em;
+    font-family: 'Cookie', cursive;
+    color: black;
+}
+.portfolio{
+    padding: 1em;
+    background-color: #ddceb4;
+    opacity: 0.5;
+    background-image: url(images/floral.png);
+     background-repeat: repeat;
+     color: black;
+    display: inline-block;
+
+}
+#portfolio-content{
+    display: flex;
+    justify-content: center;
+    left: 40%;
+    border-top: 2px solid;
+    font-size: 30px;
+    border-bottom: 2px solid;
+}
+
+.zunaish{
+    position: relative;
+    float: left;
+}
+.zunaish img{
+    width: 300px;
+    height: 300px;
+}
+#hijab{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #000000;
+}
+.zunaish:hover #hijab{
+    display: block;
+}
+.reach{
+    position: relative;
+    float: left;
+}
+.reach img{
+    width: 300px;
+    height: 300px;
+}
+#out{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #000000;
+}
+.reach:hover #out{
+    display: block;
+}
+.olx_pk{
+    position: relative;
+    float: left;
+}
+.olx_pk img{
+    width: 300px;
+    height: 300px;
+}
+#websites{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #000000;
+}
+.olx_pk:hover #websites{
+    display: block;
+}
+.bata_shoes{
+    position: relative;
+    float: left;
+}
+.bata_shoes img{
+    width: 300px;
+    height: 300px;
+}
+#shop{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #000000;
+}
+.bata_shoes:hover #shop{
+    display: block;
+}
+.apple{
+    position: relative;
+    float: left;
+}
+.apple img{
+    width: 300px;
+    height: 300px;
+}
+#tv{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #000000;
+}
+.apple:hover #tv{
+    display: block;
+}
+.shoes_lover{
+    position: relative;
+    float: left;
+}
+.shoes_lover img{
+    width: 300px;
+    height: 300px;
+}
+#pk{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #000000;
+}
+.shoes_lover:hover #pk{
+    display: inline-block;
+}
+
+
+.contact-us{
+    background-color: #afd2d0;
+    opacity: 0.5;
+    padding: 1em;
+    background-image: url(images/floral.png);
+     background-repeat: repeat;
+}
+
+.contact-us i{
+    align-content: center;
+    display: inline;    
+    font-size: 30px;
+    border-radius: 100%;
+    border: 1px solid;
+    padding: 10px;
+    color: black;
+    
+}
+
+.contact-us i:hover{
+    background-color: #000000;
+    color: #fcdea6;
+}
+.creator{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+.creator:hover  i{
+    color: red;
+}
+@media and screen{
+
+}
