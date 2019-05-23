@@ -1,0 +1,424 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+@keyframes example{
+    from {right:  0;}
+    to {right: 90%;}
+}
+
+
+article{ 
+    background-color: #ff0000;
+    display: flex;
+}
+.top-nav{
+    margin: 1px;
+    width: 100%;
+    padding-left:  0;
+    margin-left: 0;
+}
+#offer{
+    padding: 0;
+    color: #ffffff;
+    font-weight: 600;
+    float: right;
+    position: relative;
+    animation: mymove 20s infinite;
+}
+.fa-html5{
+    width: 50px;
+}
+#offer span{
+    background-color: #ffff00;
+    color: #000000;
+}
+#offer:hover{
+    animation-play-state: paused;
+}
+@keyframes mymove{
+    from {right: 0;}
+    to {right: 100%;}
+}
+.top-nav #logo{
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img{
+    width: 60px;
+    height: 35px;
+    padding: 6px;
+}
+.top-nav #menu .nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #ffffff;
+    justify-content: space-between;
+    white-space: pre;
+    margin-right: 1em;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #d3d3d3;
+}
+#mainHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px
+    
+}
+.techkaro-Header{
+    background-color: #ffc0cb;
+    opacity: 1.5;
+    margin-top: -3.0em;
+    background-image: url(images/floral.png);
+
+}
+#content_Header{
+    display: flex;
+    
+    justify-content: center;
+    font-size: 25px;
+    display: inline-block;
+    border: 2px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Montserrat', sans-serif;
+}
+#content{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 25px;
+    white-space: pre;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.main_content{
+
+    margin:auto;
+    display: block;
+}
+#join-now{
+    position: relative;
+    top: 70%;
+    left: 43%;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffc0cb;
+    background-color: #000000;
+    border: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+#services{
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    font-family: 'Cookie', cursive;
+}
+.courses-description{
+    background-color: #efece7;
+    background-image: url(images/floral.png);
+    opacity: 1.5;
+    padding: 1em;
+    background-repeat: repeat;
+    margin: auto;
+}
+#html5{
+    
+    display: flex;
+    display: inline;
+}
+#1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#all{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+.fa-html5{
+    margin-left: 35%;
+    display: inline;
+    font-size: 150px;
+    padding: 10px;
+}
+
+.html5{
+    display: flex;
+    flex-direction: row
+}
+
+.fa-html5:hover{
+    color: #ff0000
+}
+.fa-css3-alt{
+    margin-left: 34%;
+    font-size: 150px
+}
+
+.css3{
+    display: flex;
+    flex-direction: row
+}
+.fa-css3-alt:hover{
+    color: #ff0000
+}
+.fa-js{
+    font-size: 150px;
+    margin-left: 30%;
+
+}
+
+.js{
+    display: flex;
+    flex-direction: row
+}
+.fa-js:hover{
+    color: #ff0000
+}
+figcaption{
+    margin: auto;
+}
+h2{
+     display: flex;
+    justify-content: center;
+    font-size: 5em;
+    font-family: 'Cookie', cursive;
+    color: #000000;
+}
+.portfolio{
+    padding: 1em;
+    background-color: #ddceb4;
+    opacity: 0.5;
+    background-image: url(images/floral.png);
+     background-repeat: repeat;
+     color: #000000;
+    display: inline-block;
+
+}
+#portfolio-content{
+    display: flex;
+    justify-content: center;
+    left: 40%;
+    border-top: 2px solid;
+    font-size: 30px;
+    border-bottom: 2px solid;
+}
+
+.zunaish{
+    position: relative;
+    float: left;
+}
+.zunaish img{
+    width: 300px;
+    height: 300px;
+}
+#hijab{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.zunaish:hover #hijab{
+    display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
+}
+.reach{
+    position: relative;
+    float: left;
+}
+.reach img{
+    width: 300px;
+    height: 300px;
+}
+#out{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.reach:hover #out{
+    display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
+}
+.olx_pk{
+    position: relative;
+    float: left;
+}
+.olx_pk img{
+    width: 300px;
+    height: 300px;
+}
+#websites{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.olx_pk:hover #websites{
+    display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
+}
+.bata_shoes{
+    position: relative;
+    float: left;
+}
+.bata_shoes img{
+    width: 300px;
+    height: 300px;
+}
+#shop{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.bata_shoes:hover #shop{
+    display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
+}
+.apple{
+    position: relative;
+    float: left;
+}
+.apple img{
+    width: 300px;
+    height: 300px;
+}
+#tv{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.apple:hover #tv{
+    display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
+}
+.shoes_lover{
+    position: relative;
+    float: left;
+}
+.shoes_lover img{
+    width: 300px;
+    height: 300px;
+}
+#pk{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.shoes_lover:hover #pk{
+    display: inline-block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
+}
+
+
+.contact-us{
+    background-color: #afd2d0;
+    opacity: 0.5;
+    padding: 1em;
+    background-image: url(images/floral.png);
+     background-repeat: repeat;
+}
+
+.contact-us i{
+    align-content: center;
+    display: inline;    
+    font-size: 30px;
+    border-radius: 100%;
+    border: 1px solid;
+    padding: 10px;
+    color: #000000;
+    
+}
+
+.contact-us i:hover{
+    background-color: #000000;
+    color: #fcdea6;
+}
+.creator{
+    background-color: #000000;
+    color: #ffffff;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+.creator:hover  i{
+    color: #ff0000;
+}
+@media screen and (max-width:768){
+    #offer{
+        padding: 0;
+        display: inline;
+    }
+    .top-nav .nav-list{
+        display: flex;
+        flex-shrink: initial
+    }
+    #mainHeading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        display: inline-block
+    }
+ 
+}
