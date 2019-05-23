@@ -22,6 +22,7 @@ article{
     margin-left: 0;
 }
 #offer{
+    padding: 0;
     color: #ffffff;
     font-weight: 600;
     float: right;
@@ -57,7 +58,7 @@ article{
     display: flex;
     flex-direction: row;
     list-style: none;
-    color: white;
+    color: #ffffff;
     justify-content: space-between;
     white-space: pre;
     margin-right: 1em;
@@ -72,9 +73,10 @@ article{
     align-items: center;
     justify-content: center;
     font-size: 60px
+    
 }
 .techkaro-Header{
-    background-color: pink;
+    background-color: #ffc0cb;
     opacity: 1.5;
     margin-top: -3.0em;
     background-image: url(images/floral.png);
@@ -85,11 +87,24 @@ article{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
-    border: 1px solid;
-    border-left: none;
-    border-right: none;
+    font-size: 21px;
+
+    white-space: pre;
+    display: inline-block;
+
+    text-decoration: overline;
     font-family: 'Montserrat', sans-serif;
+}
+#content{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 25px;
+    white-space: pre;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .main_content{
 
@@ -103,8 +118,8 @@ article{
     width: 160px;
     height: 50px;
     font-size: 20px;
-    color: pink;
-    background-color: black;
+    color: #ffc0cb;
+    background-color: #000000;
     border: transparent;
     font-family: 'Montserrat', sans-serif;
 }
@@ -134,17 +149,18 @@ article{
 }
 #all{
     display: flex;
-
+    justify-content: center;
+    
 }
+
 h4{
     display: flex;
     justify-content: center;
-    color: black;
+    color: #000000;
 }
 .fa-html5{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    margin-left: 35%;
+    display: inline;
     font-size: 150px;
     padding: 10px;
 }
@@ -158,6 +174,7 @@ h4{
     color: #ff0000
 }
 .fa-css3-alt{
+    margin-left: 34%;
     font-size: 150px
 }
 
@@ -169,7 +186,9 @@ h4{
     color: #ff0000
 }
 .fa-js{
-    font-size: 150px
+    font-size: 150px;
+    margin-left: 30%;
+
 }
 
 .js{
@@ -179,12 +198,15 @@ h4{
 .fa-js:hover{
     color: #ff0000
 }
+figcaption{
+    margin: auto;
+}
 h2{
      display: flex;
     justify-content: center;
     font-size: 5em;
     font-family: 'Cookie', cursive;
-    color: black;
+    color: #000000;
 }
 .portfolio{
     padding: 1em;
@@ -192,7 +214,7 @@ h2{
     opacity: 0.5;
     background-image: url(images/floral.png);
      background-repeat: repeat;
-     color: black;
+     color: #000000;
     display: inline-block;
 
 }
@@ -216,12 +238,18 @@ h2{
 #hijab{
     display: none;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 0;
+    left: 0;
     color: #000000;
+    width: 100%;
+    height: 100%;
 }
 .zunaish:hover #hijab{
     display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
 }
 .reach{
     position: relative;
@@ -234,12 +262,18 @@ h2{
 #out{
     display: none;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 0;
+    left: 0;
     color: #000000;
+    width: 100%;
+    height: 100%;
 }
 .reach:hover #out{
     display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
 }
 .olx_pk{
     position: relative;
@@ -252,12 +286,18 @@ h2{
 #websites{
     display: none;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 0;
+    left: 0;
     color: #000000;
+    width: 100%;
+    height: 100%;
 }
 .olx_pk:hover #websites{
     display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
 }
 .bata_shoes{
     position: relative;
@@ -270,12 +310,18 @@ h2{
 #shop{
     display: none;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 0;
+    left: 0;
     color: #000000;
+    width: 100%;
+    height: 100%;
 }
 .bata_shoes:hover #shop{
     display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
 }
 .apple{
     position: relative;
@@ -288,12 +334,18 @@ h2{
 #tv{
     display: none;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 0;
+    left: 0;
     color: #000000;
+    width: 100%;
+    height: 100%;
 }
 .apple:hover #tv{
     display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
 }
 .shoes_lover{
     position: relative;
@@ -306,12 +358,18 @@ h2{
 #pk{
     display: none;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 0;
+    left: 0;
     color: #000000;
+    width: 100%;
+    height: 100%;
 }
 .shoes_lover:hover #pk{
     display: inline-block;
+    background-color: #000000;
+    opacity: 0.5;
+    font-weight: 500; 
+    color: #fff; 
 }
 
 
@@ -330,7 +388,7 @@ h2{
     border-radius: 100%;
     border: 1px solid;
     padding: 10px;
-    color: black;
+    color: #000000;
     
 }
 
@@ -339,15 +397,32 @@ h2{
     color: #fcdea6;
 }
 .creator{
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     padding: 1em;
     display: flex;
     justify-content: center;
 }
 .creator:hover  i{
-    color: red;
+    color: #ff0000;
 }
-@media and screen{
-
+@media screen and (max-width:768){
+    #offer{
+        padding: 0;
+        display: inline;
+    }
+    .top-nav .nav-list{
+        display: flex;
+        flex-shrink: initial
+    }
+    #mainHeading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        display: inline-block
+    }
+    #css3{
+        float: right;
+    }
 }
